@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagen dinamica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/imagem_P_300x300_final.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/imagem_M_700x700_final.png" type="image/png">
+        <img src="Imagens/imagem_G_1000x1000_final.png" alt="Imagem flexivel">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <!---<audio src="midia/make the visible invisible - Alge.mp3" controls autoplay></audio>--><!--MP3-->
+    <audio preload="auto" autoplay controls>
+        <source src="midia/make the visible invisible - Alge.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/make the visible invisible - Alge.mp3" download="midia/make the visible invisible - Alge.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+</body>
+</html>
