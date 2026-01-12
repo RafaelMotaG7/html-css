@@ -11,11 +11,25 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
+
+        /*Para o efeito de cabeçalho fixo usamos position: relative; para definir a tabela como ponto de referencia para os elementos filhos no table*/
+
         td, th{
             border: 1px solid black;
             padding: 10px;
         }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+
+        /*Já aq é onde está o cabeçalho onde colocamos o position: sticky; que é o motor do efeito. Diz ao elemento: "se comporte como relative até chegar em tal posição, depois se comporte como fixed".
+        top: -1px; Determina onde o elemento vai "grudar". O valor -1px é um truque visual para que a borda superior do cabeçalho se alinhe perfeitamente com a borda da tabela, evitando que apareça um pequeno espaço vazio no topo. não podemos esquecer de colocar a cor do cabeçalho como o background-color*/
+
         thead, tfoot{
             background-color: #383838;
             color: white;
@@ -178,5 +192,10 @@
             </tr>
         </tfoot>
     </table>
+    <p><span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo molestias accusamus aliquam quod iusto enim totam nesciunt, officia, vero quaerat, ipsam eius cumque ab illum minus temporibus modi quos dolorem.</span><span>Odit nemo at consequatur enim quos. Tempore maxime aut consequuntur nobis ratione porro laboriosam doloremque maiores sed repellat corporis cupiditate nesciunt, nostrum dolorum ipsam nulla? Impedit sint numquam aperiam fugiat?</span><span>Consequatur iure ipsa ipsam molestiae at, nisi maiores commodi neque repellendus, aut deserunt error obcaecati, quia incidunt delectus! Quo laboriosam accusamus fugit saepe autem cum obcaecati nemo suscipit odit. Provident.</span><span>Magni cum eaque accusantium minima eum ut tenetur nulla, enim atque vero sint aperiam odit a qui praesentium consequuntur provident officiis facere aut eveniet consequatur minus natus! Veniam, pariatur distinctio.</span></p>
+    <p><span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo molestias accusamus aliquam quod iusto enim totam nesciunt, officia, vero quaerat, ipsam eius cumque ab illum minus temporibus modi quos dolorem.</span><span>Odit nemo at consequatur enim quos. Tempore maxime aut consequuntur nobis ratione porro laboriosam doloremque maiores sed repellat corporis cupiditate nesciunt, nostrum dolorum ipsam nulla? Impedit sint numquam aperiam fugiat?</span><span>Consequatur iure ipsa ipsam molestiae at, nisi maiores commodi neque repellendus, aut deserunt error obcaecati, quia incidunt delectus! Quo laboriosam accusamus fugit saepe autem cum obcaecati nemo suscipit odit. Provident.</span><span>Magni cum eaque accusantium minima eum ut tenetur nulla, enim atque vero sint aperiam odit a qui praesentium consequuntur provident officiis facere aut eveniet consequatur minus natus! Veniam, pariatur distinctio.</span></p>
+    <p><span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo molestias accusamus aliquam quod iusto enim totam nesciunt, officia, vero quaerat, ipsam eius cumque ab illum minus temporibus modi quos dolorem.</span><span>Odit nemo at consequatur enim quos. Tempore maxime aut consequuntur nobis ratione porro laboriosam doloremque maiores sed repellat corporis cupiditate nesciunt, nostrum dolorum ipsam nulla? Impedit sint numquam aperiam fugiat?</span><span>Consequatur iure ipsa ipsam molestiae at, nisi maiores commodi neque repellendus, aut deserunt error obcaecati, quia incidunt delectus! Quo laboriosam accusamus fugit saepe autem cum obcaecati nemo suscipit odit. Provident.</span><span>Magni cum eaque accusantium minima eum ut tenetur nulla, enim atque vero sint aperiam odit a qui praesentium consequuntur provident officiis facere aut eveniet consequatur minus natus! Veniam, pariatur distinctio.</span></p>
+    <p><span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo molestias accusamus aliquam quod iusto enim totam nesciunt, officia, vero quaerat, ipsam eius cumque ab illum minus temporibus modi quos dolorem.</span><span>Odit nemo at consequatur enim quos. Tempore maxime aut consequuntur nobis ratione porro laboriosam doloremque maiores sed repellat corporis cupiditate nesciunt, nostrum dolorum ipsam nulla? Impedit sint numquam aperiam fugiat?</span><span>Consequatur iure ipsa ipsam molestiae at, nisi maiores commodi neque repellendus, aut deserunt error obcaecati, quia incidunt delectus! Quo laboriosam accusamus fugit saepe autem cum obcaecati nemo suscipit odit. Provident.</span><span>Magni cum eaque accusantium minima eum ut tenetur nulla, enim atque vero sint aperiam odit a qui praesentium consequuntur provident officiis facere aut eveniet consequatur minus natus! Veniam, pariatur distinctio.</span></p>
+    <p><span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo molestias accusamus aliquam quod iusto enim totam nesciunt, officia, vero quaerat, ipsam eius cumque ab illum minus temporibus modi quos dolorem.</span><span>Odit nemo at consequatur enim quos. Tempore maxime aut consequuntur nobis ratione porro laboriosam doloremque maiores sed repellat corporis cupiditate nesciunt, nostrum dolorum ipsam nulla? Impedit sint numquam aperiam fugiat?</span><span>Consequatur iure ipsa ipsam molestiae at, nisi maiores commodi neque repellendus, aut deserunt error obcaecati, quia incidunt delectus! Quo laboriosam accusamus fugit saepe autem cum obcaecati nemo suscipit odit. Provident.</span><span>Magni cum eaque accusantium minima eum ut tenetur nulla, enim atque vero sint aperiam odit a qui praesentium consequuntur provident officiis facere aut eveniet consequatur minus natus! Veniam, pariatur distinctio.</span></p>
 </body>
 </html>
