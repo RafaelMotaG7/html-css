@@ -40,10 +40,10 @@
     <table>
         <thead>
             <tr>
-                <th rowspan="2">Área</th>
-                <th rowspan="2">Disciplinas</th>
-                <th colspan="2">Notas</th>
-                <th rowspan="2">Média</th>
+                <th rowspan="2" scope="row">Área</th>
+                <th rowspan="2" scope="row">Disciplinas</th>
+                <th colspan="2" scope="colgroup">Notas</th>
+                <th rowspan="2" scope="row">Média</th>
             </tr>
             <tr>
                 <th>Nota 1</th>
@@ -52,49 +52,49 @@
         </thead>
         <tbody>
             <tr>
-                <th rowspan="4">Exatas</th>
-                <th>Matematica</th>
+                <th rowspan="4" scope="rowgroup">Exatas</th>
+                <th scope="row">Matematica</th>
                 <td>10.0</td>
                 <td>10.0</td>
                 <td>10.0</td>
                 <tr>
-                    <th>Fisica</th>
+                    <th scope="row">Fisica</th>
                     <td>8.0</td>
                     <td>10.0</td>
                     <td>9.0</td>
                 </tr>
                 <tr>
-                    <th>Quimica</th>
+                    <th scope="row">Quimica</th>
                     <td>6.0</td>
                     <td>8.0</td>
                     <td>7.0</td>
                 </tr>
                 <tr>                
-                    <th>Biologia</th>
+                    <th scope="row">Biologia</th>
                     <td>9.0</td>
                     <td>9.0</td>
                     <td>9.0</td>
                 </tr>
             </tr>
             <tr>
-                <th colspan="4" class="media">Media de Exatas</th>
+                <th colspan="4" class="media" scope="col">Media de Exatas</th>
                 <td class="n-media">8.75</td>
             </tr>
             <tr>
-                <th rowspan="2">Humanas</th>
-                <th>História</th>
+                <th rowspan="2" scope="rowgroup">Humanas</th>
+                <th scope="row">História</th>
                 <td>5.0</td>
                 <td>9.0</td>
                 <td>7.0</td>
             </tr>
             <tr>
-                <th>Geografia</th>
+                <th scope="row">Geografia</th>
                 <td>7.0</td>
                 <td>5.0</td>
                 <td>6.0</td>
             </tr>
             <tr>
-                <th colspan="4" class="media">Media de Exatas</th>
+                <th colspan="4" class="media" scope="col">Media de Exatas</th>
                 <td  class="n-media">5.62</td>
             </tr>
         </tbody>
