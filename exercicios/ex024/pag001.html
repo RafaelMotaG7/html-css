@@ -3,44 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabelas Responsivas</title>
+    <title>Site de Teste</title>
     <style>
-        body {
+        body{
             font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
         }
-
-        table {
+        table{
             border-collapse: collapse;
-            width: 100%; 
         }
-
-        caption {
+        caption{
             font-size: 1.2em;
-            font-weight: bold;
+            font-weight: bolder;
             padding: 20px;
         }
-
-        th, td {
+        th, td{
             border: 1px solid black;
             padding: 10px;
-            text-align: center;
         }
-
-        tr:nth-child(even) {
-            background-color: lightgray; 
+        tr:nth-child(even){
+            background-color: rgb(228, 228, 228);
         }
-
-        #container {
-            overflow-x: auto; /* Permite a rolagem horizontal apenas na tabela */
+        tr:nth-child(odd){
+            background-color: white;
         }
     </style>
 </head>
 <body>
-    <h1>Tabelas em telas pequenas</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-
-    <div id="container">
-        <table>
+    <table>
         <caption>Vendas de produtos por mês</caption>
             <thead>
                 <tr>
@@ -166,7 +156,6 @@
                 <td>16</td>
                 </tr>
             </tbody>
-        </table>
-    </div>
+    </table>
 </body>
 </html>
