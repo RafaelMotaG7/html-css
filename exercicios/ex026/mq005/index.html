@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <i id="burguer" class="material-symbols-outlined" onclick="clickmenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sequi nostrum ea, facilis deleniti voluptatum consequuntur praesentium quam provident velit dolores repellendus incidunt voluptatem doloremque eos assumenda, ipsam tempore illo?</span><span>Accusamus architecto, libero eveniet dolore explicabo nemo qui esse voluptatem ab voluptatibus quam aliquid et recusandae, eum at praesentium voluptate iusto possimus fuga in, harum excepturi. Cum unde esse obcaecati.</span><span>Placeat beatae dolorum veritatis, officiis harum praesentium commodi sed repellendus aspernatur, eum voluptate dolore neque. Beatae iste laborum quo repellendus saepe expedita. Rem hic, in voluptas quia suscipit consectetur error?</span><span>Consequuntur vitae reprehenderit soluta cum quasi modi qui aperiam animi aut tempora quia est nihil reiciendis possimus molestias molestiae sapiente, saepe laudantium. Minima placeat laborum quae voluptates magni molestias ex?</span><span>Facere perferendis voluptates blanditiis at, iste dolorum! Nulla repellat minus, obcaecati quia aspernatur consequuntur omnis architecto tempora quae ipsam laborum dolor veritatis est quisquam voluptates animi perferendis dolore voluptate ipsum!</span></p>
+            <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, laudantium! Nobis omnis perferendis aut ipsam odio veritatis quaerat, sapiente dignissimos, doloremque non, exercitationem amet! Possimus velit impedit doloremque minima quos!</span><span>Totam asperiores fugit est quo, sequi quaerat veritatis accusamus impedit non aperiam tenetur dicta alias deserunt. Beatae saepe voluptatum debitis aperiam accusamus explicabo eveniet praesentium itaque molestiae, cum enim ab?</span><span>Corporis dolorem dolorum, omnis aliquid voluptate id dolor impedit quae ratione delectus, animi repudiandae nulla illo hic quasi excepturi quam culpa, earum distinctio eius eaque sequi alias! Natus, exercitationem id!</span><span>Adipisci ea amet molestias quas minima dolorum, tempora, est ipsa deserunt sapiente vitae possimus accusantium illum provident, hic autem similique itaque eaque debitis ipsum quos sed eius facere? Libero, odit.</span></p>
+        </article>
+    </main>
+    <script>
+        function clickmenu(){
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            }
+            else{
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
