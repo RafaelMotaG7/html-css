@@ -8,6 +8,10 @@
     menu{
         display: block;
     }
+    
+    menu a {
+        border-top: none;
+    }
 
     menu > ul > li{
         display: inline-block;
